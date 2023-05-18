@@ -10,14 +10,14 @@ DevOps Helper is a repository that contains helper scripts for various DevOps ta
 Before running the scripts, ensure they have execution permission. You can grant execution permission by running the following command:
 
 ```shell
-chmod +x install-terraform.sh install-ansible.sh
+chmod +x terraform_setup.sh ansible_setup.sh
 ```
 
 After granting execution permission, you can run the scripts using the following commands:
 
 ```shell
-./install-terraform.sh
-./install-ansible.sh
+./terraform_setup.sh
+./ansible_setup.sh
 ```
 
 Use these scripts to easily set up Terraform and Ansible on your system, enabling you to streamline your DevOps workflows and infrastructure management.
